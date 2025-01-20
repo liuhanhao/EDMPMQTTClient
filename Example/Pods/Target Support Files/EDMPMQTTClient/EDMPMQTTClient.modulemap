@@ -1,0 +1,6 @@
+framework module EDMPMQTTClient {
+  umbrella header "EDMPMQTTClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

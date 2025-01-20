@@ -1,0 +1,27 @@
+PODS:
+  - EDMPMQTTClient (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EDMPMQTTClient (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EDMPMQTTClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EDMPMQTTClient: 5260de375c5c02ba58e8b5cc262e4f8b7784c40e
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 088735627a5ae2c4c31333e9e25ae1f108c21e94
+
+COCOAPODS: 1.16.2
